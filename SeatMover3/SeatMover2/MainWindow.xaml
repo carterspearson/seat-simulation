@@ -1,0 +1,32 @@
+﻿<Window x:Class="SeatMover2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="761" Width="731" MouseDoubleClick="Window_MouseDoubleClick">
+    <Grid>
+        <Slider Height="23" HorizontalAlignment="Left" Margin="481,81,0,0" Name="sliderTrack" VerticalAlignment="Top" Width="100" Maximum="92" Minimum="0" ValueChanged="sliderGroup_ValueChanged" SelectionStart="37" Value="0" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="481,137,0,0" Name="sliderUp" VerticalAlignment="Top" Width="100" Maximum="0" Minimum="-43" ValueChanged="sliderGroup_ValueChanged" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="481,197,0,0" Name="sliderRecline" VerticalAlignment="Top" Width="100" Maximum="60" Minimum="-60" ValueChanged="sliderGroup_ValueChanged" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="481,255,0,0" Name="sliderSeatUp" VerticalAlignment="Top" Width="100" Maximum="20" Minimum="-10" ValueChanged="sliderGroup_ValueChanged" />
+        <TextBox Height="23" Margin="470,50,0,0" Name="textBox1" VerticalAlignment="Top" Text="Track" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="470,110,0,0" Name="textBox2" Text="Lift" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="470,166,0,0" Name="textBox3" Text="Back Rotate" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="470,226,0,0" Name="textBox4" Text="Seat Rotate" VerticalAlignment="Top" Width="120" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,454,0,0" x:Name="arm1_2" Stretch="Fill" VerticalAlignment="Top" Width="235" Source="/SeatMover2;component/Seat%20Images/Arm%201.png" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,454,0,0" x:Name="arm2_2" Source="/SeatMover2;component/Seat%20Images/Arm%202.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,454,0,0" x:Name="back_2" Source="/SeatMover2;component/Seat%20Images/Back.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,454,0,0" x:Name="seat_2" Source="/SeatMover2;component/Seat%20Images/Seat.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,454,0,0" x:Name="seatPlastic_2" Source="/SeatMover2;component/Seat%20Images/Seat%20plastic.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,454,0,0" x:Name="runner_2" Source="/SeatMover2;component/Seat%20Images/Runner.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,454,0,0" x:Name="track_2" Source="/SeatMover2;component/Seat%20Images/Track.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="81,346,0,0" Name="textBlock1" Text="TextBlock" VerticalAlignment="Top" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,34,0,0" x:Name="arm1" Stretch="Fill" VerticalAlignment="Top" Width="235" Source="Seat Images/Arm 1.png" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,34,0,0" x:Name="arm2" Source="Seat Images/Arm 2.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,34,0,0" x:Name="back" Source="Seat Images/Back.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,34,0,0" x:Name="seat" Source="Seat Images/Seat.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,34,0,0" x:Name="seatPlastic" Source="Seat Images/Seat plastic.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image Height="243" HorizontalAlignment="Left" Margin="56,34,0,0" x:Name="runner" Source="Seat Images/Runner.png" Stretch="Fill" VerticalAlignment="Top" Width="235" />
+        <Image HorizontalAlignment="Left" Margin="56,34,0,0" x:Name="track" Source="Seat Images/Track.png" Stretch="Fill" Width="235" Height="243" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="81,374,0,0" x:Name="textBlock2" Text="TextBlock" VerticalAlignment="Top" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="164,346,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
